@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: #283149 !important; /* Use !important to override other styles */
+    margin: 0;
+    padding: 50px 0 0; /* Add padding to the top */
+}
+
+h1 {
+    font-size: 30rem; /* Large font size for the title */
+    color: white; /* Light color for the title */
+    font-family: "Updock", cursive; /* Custom font */
+    text-align: center;
+    font-weight: bolder; /* Normal weight */
+    font-style: normal; /* Normal style */
+    text-shadow: 3px 0 darkred; /* Shadow effect for the title */
+}
+
+.set {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow buttons to wrap */
+    justify-content: center; /* Center buttons horizontally */
+    margin: 10% auto; /* Centering the set with top margin */
+    max-width: 800px; /* Set a max width to fit them in one frame */
+}
+
+
+.drum {
+    outline: none; /* Remove outline on focus */
+    border: 8px solid #404B69; /* Adjusted border size */
+    font-size: 4rem; /* Reduced font size */
+    font-family: "Exo 2", sans-serif; /* Custom font */
+    line-height: 2; /* Space between lines */
+    font-weight: 900; /* Bold font weight */
+    color: #DA0463; /* Color for button text */
+    text-shadow: 3px 0 hwb(336 31% 20%); /* Shadow effect for text */
+    border-radius: 15px; /* Rounded corners */
+    display: inline-block; /* Display as inline-block */
+    width: 120px; /* Reduced width */
+    height: 120px; /* Reduced height */
+    text-align: center; /* Center text */
+    margin: 5px; /* Reduced margin around buttons */
+    background-color: white; /* White background for buttons */
+}
+
+/* Background images for buttons */
+.w { background-image: url('assets/Images/sound1.png'); }
+.a { background-image: url('assets/Images/sound2.png'); }
+.s { background-image: url('assets/Images/sound3.png'); }
+.d { background-image: url('assets/Images/sound4.png'); }
+.j { background-image: url('assets/Images/snare.png'); }
+.k { background-image: url('assets/Images/crash.png'); }
+.l { background-image: url('assets/Images/kick.png'); }
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3; /* Shadow effect when pressed */
+    opacity: 0.5; /* Slightly transparent effect */
+}
+
+footer {
+    margin-top: 20px; /* Margin above the footer */
+    color: black; /* Light color for footer text */
+    font-size: 1rem; /* Font size for footer */
+    font-family: 'Arvo', cursive; /* Custom font for footer */
+    text-align: right;
+}
+
+.text1 {
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.6); /* Text shadow specifically for heart */
+}
+
+.text2{
+    text-shadow: 2px 2px 4px rgba(29, 7, 228, 0.6); /* Text shadow specifically for butterfly */
+}
